@@ -6,6 +6,7 @@ export function updateDisplay(minutes, seconds) {
   seconds = seconds ?? state.seconds
 
   el.minutes.textContent = String(minutes).padStart(2, "0")
+  
   el.seconds.textContent = String(seconds).padStart(2, "0")
 
 }
